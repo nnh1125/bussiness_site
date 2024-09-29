@@ -1,0 +1,45 @@
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+#logo img {
+    height: 100px; width: auto;
+}
+
+.nav li {
+    display: inline-block; font-size: 20px; padding: 0px 200px 0px 0px; 
+    box-sizing:border-box; color: #000
+}
+
+.nav li a {text-decoration: none; color: inherit}	
+
+footer ul li{
+    display: block;
+    padding: 10px 100px 40px 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: 	#cfe2f3;
+}
+
+header {
+    background-color: 	#cfe2f3;
+    position: sticky;
+    top: 0;
+}
+
+.nav li:hover { color: #eccacb; }
+
+a:hover {
+    color:	#eccacb;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 700px){
+    #content {width: 100%}
+}
